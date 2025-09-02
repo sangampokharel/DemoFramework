@@ -258,7 +258,7 @@ internal class PaymentCoordinator {
         DispatchQueue.main.async {
             self.presentPaymentScreen()
         }
-    } 
+    }
     
     private func presentPaymentScreen() {
         guard let windowScene = UIApplication.shared.connectedScenes
